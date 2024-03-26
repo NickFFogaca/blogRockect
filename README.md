@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# RocketBlog
 
-Currently, two official plugins are available:
+Projeto desenvolvido da trilha ReactJS da RocketSeat com o intuito de entender os fundamentos e motores do ReactJs e do TypeScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Screenshots
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![App Screenshot](https://cdn.discordapp.com/attachments/927620978299777025/1221999616430440588/image.png?ex=66149ed4&is=660229d4&hm=6523cceedb79cfc68bd0e595e365dc47d0ff41ef8950eceb64568f1792237fd9&)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Funcionalidades
+
+- Adicionar e remover comentário
+- Curtir comentário
+
+
+## Aprendizados
+
+Primeiro projeto feito com TypeScript e tambem foi onde eu consegui me aperfoiçoar e entender os fundamentos do ReactJS, principalmente no uso de useState.
+
+Utilizei algumas bibliotecas como:
+- date-fns (para a configuração de data)
+- phosphor-react (para icons)
+
+
+
